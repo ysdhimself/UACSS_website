@@ -39,7 +39,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
                   placeholder="Email Address"
                   required
                 />
-                <button type="submit">Submit</button>
+                <button type="submit" className="btn btn-responsive">Submit</button>
               </div>
             </form>
           </Col>
